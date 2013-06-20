@@ -1,0 +1,280 @@
+/* This is a customized CSS */
+
+.border_test
+{
+	border:dotted;
+	border-color:#933;
+}
+
+.border_test1
+{
+	border:dotted;
+	border-color:#F00;
+}
+.font_set
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.header_bck
+{
+	background-image:url(../img/gry_wall_1.png);
+}
+
+
+/* Large desktop */
+@media (min-width: 980px) and (min-width: 1200px)
+{
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}	
+	.logo_margin			/* margin from top */
+	{
+		margin-top:25px
+	}
+	.header_mid_img			/* Header up image */
+	{
+		width:300px;
+		margin-left:30%;
+	}
+	.header_mid_img1
+	{
+		margin-top:20px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.clnt_mid_marzin
+	{
+		margin-left:-3px;
+	}	
+	.cl_md_ht
+	{
+		height:113px;
+	}
+}
+
+/* My customize media quiry */
+@media (min-width: 980px) and (max-width: 1199px)
+{
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}
+	.logo_margin			/* margin from top */
+	{
+		margin-top:25px
+	}
+	.header_mid_img			/* Header up image */
+	{
+		width:300px;
+		margin-left:30%;
+	}
+	.header_mid_img1
+	{
+		margin-top:20px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.clnt_logo_margin
+	{
+		height:133px;
+	}
+	
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)
+{
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}
+	.logo_margin			/* margin from top */
+	{
+		margin-top:25px
+	}
+	.header_left_img
+	{
+		height:45px;
+		
+	}
+	.header_mid_img			/* Header up image */
+	{
+		width:250px;
+		margin-left:30%;
+	}
+	.header_mid_img1
+	{
+		margin-top:25px;
+		margin-left:7%;
+		height:10px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.font_set
+	{
+		font-family:Georgia, "Times New Roman", Times, serif;
+	}
+	.clnt_logo_margin
+	{
+		height:133px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px)
+{ 
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}
+	.logo_margin			/* margin from top */
+	{
+		margin-top:25px;
+		margin-left:30%;
+		width:300px;
+	}
+	.header_mid_img			/* Header up image */
+	{
+		margin-top:-5px;
+	}
+	.header_mid_img1
+	{
+		margin-top:25px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.partner_img_size
+	{
+		width:200px;
+	}
+	.partner_img_size1
+	{
+		width:200px;
+		margin-left:400px;
+		margin-top:-179px;	
+	}
+	.partner_img_size2
+	{
+		width:200px;
+		margin-top:20px;	
+	}
+	.partner_img_size3
+	{
+		width:200px;
+		margin-left:400px;
+		margin-top:-180px;	
+	}
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px)
+{
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}
+	.logo_margin			/* margin from top */
+	{
+		margin-top:20px;
+	}
+	.header_left_img
+	{
+		width:225px;
+		height:50px;
+		margin-left:20%;
+	}
+	.header_mid_img			/* Header up image */
+	{
+		width:200px;
+		margin-top:-40px;
+		margin-left:25%;
+	}
+	.header_mid_img1
+	{
+		margin-top:25px;
+		height:10px;
+	}
+	.right_btn_margin
+	{
+		margin-top:-40px;
+	}
+	.margin_menu
+	{
+		margin-top:15px;
+	}
+	.partner_img_size
+	{
+		width:150px;
+	}
+	.partner_img_size1
+	{
+		width:150px;
+		margin-top:-145px;
+		margin-left:200px;
+	}
+	.partner_img_size2
+	{
+		width:150px;
+		margin-top:20px;	
+	}
+	.partner_img_size3
+	{
+		width:150px;
+		margin-top:-145px;
+		margin-left:200px;
+	}
+
+}
+
+@media (max-width: 400px)
+{
+	.herder_height			/* header logo's height fixed */
+	{
+		height:130px;
+	}
+	.logo_margin			/* margin from top */
+	{
+		margin-top:20px;
+	}
+	.header_left_img
+	{
+		width:225px;
+		height:50px;
+		margin-left:15%;
+	}
+	.header_mid_img			/* Header up image */
+	{
+		width:200px;
+		margin-top:-40px;
+		margin-left:20%;
+	}
+	.header_mid_img1
+	{
+		margin-top:25px;
+		height:10px;
+	}
+
+}
+
+.footer_align
+{
+	text-align:center;
+	font-size:15px;
+	margin-top:10px;
+}

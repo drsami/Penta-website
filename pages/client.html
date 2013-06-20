@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+    	<title> Client | Penta Informatics </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Home page">
+        <meta name="author" content="Penta Informatics LTD">
+        
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="../css/responsive.less">
+        <link rel="stylesheet" href="../css/customized.css">
+        
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/1.7.2.jquery.min.js"></script>
+        <script src="../js/bootstrap-collapse.js"></script>
+        <script src="../js/bootstrap-button.js"></script>
+        <script src="../js/bootstrap-button.js"></script>
+        
+        <script type="text/javascript">
+		function showMoreOrLess(thisObj,bonusContent)
+		{
+			var caption = thisObj.innerHTML;
+			//alert(caption);
+			if( caption == "Read more" )
+			{
+				document.getElementById(bonusContent).style.display = "inline";
+        		thisObj.innerHTML = "Read less";
+    		}
+			else
+			{
+				document.getElementById(bonusContent).style.display = "none";
+				thisObj.innerHTML = "Read more";
+    			}
+			}
+			
+			function showMoreOrLess1(thisObj,bonusContent)
+			{
+				var caption = thisObj.innerHTML;
+				//alert(caption);
+				if( caption == "Read more" )
+			{
+				document.getElementById(bonusContent).style.display = "inline";
+        		thisObj.innerHTML = "Read less";
+    		}
+			else
+			{
+				document.getElementById(bonusContent).style.display = "none";
+				thisObj.innerHTML = "Read more";
+    			}
+			}
+		</script>
+       
+        
+    </head>
+    
+    <body background="../img/solid.png">
+        <!-- Header Start --> 
+		<div class="row-fluid header_bck">
+            
+            <div class="span12 row-fluid">
+				
+                <div class="span3 herder_height">
+   					<img class="logo_margin header_left_img" src="../img/penta_logo_1.png">            
+                </div>
+                
+                <div class="span7 herder_height" >
+                	<img class="logo_margin header_mid_img" src="../img/penta_logo_2.png">
+                	<img class="header_mid_img1" src="../img/subtitle.png">
+                </div>
+	                                
+                <div class="span2 right_btn_margin">
+                    <a class="btn btn-primary pull-right hidden-phone">Sign In</a>
+                    <a class="btn btn-primary pull-right visible-phone">Sign In</a>
+                </div>
+    
+            </div>
+           
+        </div>        <!-- Header End -->
+        
+        <!-- Menubar Start -->
+        <div class="container margin_menu font_set">
+            <div class="masthead">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav nav-tabs">
+                                    <li><a href="../index.html">Home</a></li>
+                                    <li><a href="partner.html">Partners</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li><a href="#">Clients</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="publication.html">Publication</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menubar end -->
+        
+        <!-- Clint Details start -->
+        <div class="container font_set">
+        	<h3>Our Clients</h3>
+            
+            <div class="span2 clnt_logo_margin" id="border_test1">
+            	<img src="../img/300x200.gif" alt="">
+            </div>
+            
+            <div class="span9" id="border_test1">
+            	<h5>DG HEALTH</h5>
+                <p>
+                Add discription here....... Add discription here....... Add discription here.......
+                Add discription here....... Add discription here....... Add discription here.......
+                Add discription here....... Add discription here....... Add discription here.......
+                <span id="restOfArticle" style="display:none">This is read more portion</span>
+				</p>
+                <a class="btn btn-mini btn-primary" onclick="showMoreOrLess(this,'restOfArticle');">Read more</a>
+            </div>
+            
+            <div class="span1">
+            <br>
+            </div>
+        </div>
+        
+        <div class="container font_set">
+        	<div class="span2 clnt_logo_margin" id="border_test">
+            	<img src="../img/300x200.gif" alt="">
+            </div>
+            
+            <div class="span9" id="border_test">
+            	<h5>DG HEALTH</h5>
+                <p>
+                Add discription here....... Add discription here....... Add discription here.......
+                Add discription here....... Add discription here....... Add discription here.......
+                Add discription here....... Add discription here....... Add discription here.......
+                <span id="restOfArticle1" style="display:none">This is read more portion</span>
+				</p>
+                <a class="btn btn-mini btn-primary" onclick="showMoreOrLess1(this,'restOfArticle1');">Read more</a>
+           	</div>
+            
+            <div class="span1">
+            <br>
+            </div>
+        </div>
+        
+		<!-- Clint Details End -->
+        
+        <!-- footer prtion -->
+        <div class="container font_set footer_align">
+        	<p> &copy; Penta Informatics 2013 </p>
+            <p>
+                <a href="#">Site Map</a>
+                <span> | </span>
+                <a href="#">Terms &amp; Condition</a>
+                <span> | </span>
+                <a href="#">Contuct Us</a>
+            </p>
+        </div>
+        
+    </body>      
+</html>
+    	
